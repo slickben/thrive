@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" viewBox="0 0 22 25">
+  <g id="database" transform="translate(-2 -1)">
+    <ellipse id="Ellipse_17" data-name="Ellipse 17" cx="10" cy="3.5" rx="10" ry="3.5" transform="translate(3 2)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_274" data-name="Path 274" d="M23,12c0,1.909-4.444,3.45-10,3.45S3,13.909,3,12" transform="translate(0 1.5)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_275" data-name="Path 275" d="M3,5V21.1c0,1.909,4.444,3.45,10,3.45s10-1.541,10-3.45V5" transform="translate(0 0.45)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
