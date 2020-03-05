@@ -1,0 +1,43 @@
+.card-icon {
+    width: 15%;
+}
+.about-card {
+    background-color: #6E9AFF !important
+}
+
+.about-card .card-header{
+    background-color: #6E9AFF !important;
+    border: none !important;
+}
+
+.about-card p {
+    font-size: 13px !important;
+}
+
+.head {
+    width: 67%;
+}
+
+.ajust div h5 {
+    font-weight: 200;
+}
+
+.ajust div p {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.ovl {
+    background-color: rgba(110, 153, 255, 0.911) !important;
+    color: white !important;
+    opacity: 0;
+    transition: 1s;
+}
+
+.ovl:hover {
+    opacity: 1;
+}
+
+.ovl p {
+    font-size: 16px !important;
+}

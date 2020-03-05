@@ -1,0 +1,32 @@
+.manif {
+    display: grid;
+    grid-template-columns: 25em auto;
+}
+
+.manif-img {
+    height: 330px;
+    z-index: 3;
+    margin-right: -130px;
+    margin-left: 100px;
+}
+
+.manif-content{
+    background-color: #f87f73;
+    background-image: -webkit-linear-gradient( -28deg, #6E9AFF 0%, #f87f73 60%, #292423 60%, #292423 60%);
+    background-image: linear-gradient( 39deg, #6E9AFF 40%, #6E9AFF 90%, #6E9AFF 20%, #292423 0%);
+    padding-left: 160px;
+    padding-right: 110px;
+    border-width: 500px 200px 100px 0px;
+    /* background: #6E9AFF; */
+    color: white
+}
+
+.manif-png {
+    width: 100%;
+    height: 100%;
+}
+
+.manif-content div div p {
+    font-size: 14px;
+    
+}

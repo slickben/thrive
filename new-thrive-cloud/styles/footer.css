@@ -1,0 +1,29 @@
+.footer p {
+    font-size: 12px;
+}
+
+.transparent {
+    background-color: rgba(245, 245, 220, 0) !important;
+}
+
+.socia-icon {
+    width: 55%;
+    height: 80%;
+}
+
+.footer-wraper {
+    background-color: #6E9AFF;
+}
+
+.to-top {
+    background-color: #6E9AFF;
+    width: 6%;
+    padding: 1.3em .9em;
+    border-radius: 50px;
+    margin-top: -30px;
+    
+}
+
+.to-top img {
+    width: 70%;
+}

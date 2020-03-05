@@ -1,0 +1,67 @@
+* {
+    font-family: "open sans" sans-serif;
+}
+
+
+.wraper {
+    display: grid;
+}
+
+.overlap {
+    z-index: 2;
+    margin: -70px;
+    background-color: white;
+}
+
+#btn {
+    background-color: #6E9AFF !important;
+    color: white !important;
+}
+
+.resize-btn {
+    font-size: 13px !important;
+}
+
+.header-content{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.876), rgba(0, 0, 0, 0.876)), url('../../thrive assets/photo-3.png');
+    height: 80vh;
+}
+
+.logo {
+    width:65%;
+    height: 65%;
+}
+
+.navbar-nav, .nav-link {
+    font-size: 13px;
+}
+
+.link-btn {
+    font-size: 12px
+}
+
+
+.bleed{
+    margin-bottom: -30px;
+}
+
+.news {
+    background-image: url('../../thrive-assets/section-background-benefits-1.png');
+}
+
+.top {
+    height: 250px;
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: auto;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.nav-link:hover {
+    border-bottom: 2px solid #6E9AFF;
+}
+
+

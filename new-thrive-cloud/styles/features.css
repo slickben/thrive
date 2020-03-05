@@ -1,0 +1,22 @@
+.gray {
+    color: rgba(128, 128, 128, 0.712) !important;
+}
+
+.features-card div {
+    background-color: white;
+    border: none;
+}
+
+.features-card div img{
+    width: 20%;
+}
+
+.features-card div p {
+    font-size: 13px;
+}
+
+.head button {
+    background:  #6E9AFF;
+    
+}
+

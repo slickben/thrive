@@ -1,0 +1,49 @@
+.loved {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nitru-png {
+    width: 30%;
+    height: 20%;
+}
+
+.nutri-right {
+    background-color: rgba(14, 14, 14, 0.404);
+    /* height: 400px; */
+}
+
+.nutri-left {
+    z-index: 2;
+    margin-right: -70px;
+
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: rgba(129, 129, 129, 0.602);
+    margin: 0 2px;
+    border-radius: 30px;
+}
+
+.dot-color {
+    background-color: #6E9AFF;
+}
+
+.arrow {
+    width: 40%; 
+     height: 70%;
+}
+
+.arrow-wraper {
+    background-color: #7878782d;
+    padding: 10px;
+    border-radius: 100px;
+    width: 45%;
+} 
+
+/* .minos {
+    padding-right: -70px;
+} */
+
