@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/loved-by-user.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/learn.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -22,57 +23,88 @@
         <header class="container-fluid header-content">
             <div class="container pl-0 pr-0">
                 <nav class="navbar navbar-expand-lg navbar-light ">
-                    <a class="navbar-brand pb-3" href="#">
+                    <a class="navbar-brand pb-3" href="index.html">
                         <img class="logo" src="./thrive-assets/thrive-logo-1.png" alt="" srcset="">
                     </a>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto text-capitalize">
-                        <li class="nav-item active">
-                          <a class="nav-link  text-light" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">products</a>
-                          <div class="dropdown-menu dropdown-menu-center" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="navbar-nav mr-auto text-capitalize ">
+                        <div class="dropdown nav-item">
+                          <a type="button" class="pb-4 nav-link text-light" href="./index/product-preview.html">
+                            Products
+                          </a>
+                          <div class="dropdown-menu">
+                            <div class="d-flex">
+                              <div>
+                                <a class="dropdown-item" href="./index/account.html">Accounting </a>
+                                <a class="dropdown-item" href="#">Sales & Purchase</a>
+                                <a class="dropdown-item" href="#">HR & Payroll</a>
+                                <a class="dropdown-item" href="#">Manufacturing</a>
+                                <a class="dropdown-item" href="#">CRM</a>
+                                <a class="dropdown-item" href="#">Project Management</a>
+                              </div>
+                              <div>
+                                <a class="dropdown-item" href="#">Asset Management </a>
+                                <a class="dropdown-item" href="#">Inventory Management</a>
+                                <a class="dropdown-item" href="#">Point Of Sale</a>
+                                <a class="dropdown-item" href="#">Website</a>
+                                <a class="dropdown-item" href="#">Ecommerce</a>
+                              </div>
+                            </div>
+                            
                           </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-light" href="#">solutions</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link text-light text-light" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="#" >
+                        </div>
+                        <div class="nav-item dropdown">
+                          <a class="nav-link text-light pb-4"  href="./index/solution.html">solutions</a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Small Business</a>
+                            <a class="dropdown-item" href="#">Mid-size Business</a>
+                            <a class="dropdown-item" href="#">Family Owned Business</a>
+                            <a class="dropdown-item" href="#">Fast Grouwing Business</a>
+                            <a class="dropdown-item" href="#">Sartup's</a>
+                            <a class="dropdown-item" href="#">Enterprise</a>
+                          </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                          <a class="nav-link text-light text-light pb-4"  href="./index/Industries.html" >
                             industries 
                           </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                          <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./index/trading.html">Trading & Distribution</a>
+                                <a class="dropdown-item" href="#">Retail</a>
+                                <a class="dropdown-item" href="#">Manufacturing</a>
+                                <a class="dropdown-item" href="#">Service & Consulting</a>
+                                <a class="dropdown-item" href="#">Health care</a>
+                                <a class="dropdown-item" href="#">Food & Beverages</a>       
                           </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link  text-light" href="#" tabindex="-1">pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  text-light" href="#" tabindex="-1">services</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-light" href="#" tabindex="-1">resources</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link  text-light" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="#" tabindex="-1">about</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Action</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                          </li>
-                      </ul>
+                        </div>
+                        <div class="nav-item">
+                          <a class="nav-link pb-4 text-light" href="#" tabindex="-1">
+                            pricing
+                          </a>
+                        </div>
+                        <div class="nav-item">
+                          <a class="nav-link pb-4 text-light"  href="./index/professional-service.html" tabindex="-1">
+                            services
+                          </a>
+                        </div>
+                        <div class="nav-item">
+                          <a class="nav-link text-light pb-4"  href="./index/News-Resources.html" tabindex="-1">resources</a>
+                        </div>
+                        <div class="nav-item dropdown">
+                          <a class="nav-link pb-4 text-light" href="#">about</a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="./index/thrive.html">Why Thrivecloud</a>
+                            <a class="dropdown-item" href="./index/platform.html">Opensource ERP</a>
+                            <a class="dropdown-item" href="#">Cloud Infrastructure</a>
+                            <a class="dropdown-item" href="#">About Minyx360</a>
+                            <a class="dropdown-item" href="#">Book A Demo</a>
+                          </div>
+                        </div>
+                      </div>
                       <form class="form-inline my-2 my-lg-0">
                         <a class="nav-link text-light" href="#" tabindex="-1">sign up</a>
-                        <button id="btn" class="btn resize-btn my-sm-0 pt-1 pb-1 pl-2 pr-2" type="submit">book a demo</button>
+                        <button id="btn" class="text-uppercase small-font-size btn  my-sm-0 pt-1 pb-1 pl-4 pr-4" type="submit">book a demo</button>
                       </form>
                     </div>
                 </nav>
@@ -83,8 +115,8 @@
                             <h1>Business Management Platform</h1>
                             <p class="pb-3">solving common business challenges</p>
                             <div class="link-btn">
-                                <button class="btn btn-outline-light my-2 my-sm-0 mr-2">Products tour</button>
-                                <button id="btn" class="btn text-light my-2 my-sm-0" >Book a demo</button>
+                                <button  class="text-capitalize small-font-size pt-2 pb-2 pl-4 pr-4 btn btn-outline-light my-2 my-sm-0 mr-2">Products tour</button>
+                                <button id="btn" class="text-capitalize pt-2 pb-2 pl-4 pr-4 small-font-size btn text-light my-2 my-sm-0" >Book a demo</button>
                             </div>
                         </div>
                     </div>
@@ -286,10 +318,10 @@
           <div>
             <div class="d-flex justify-content-center">
               <header class="about mt-5 mb-5">
-                  <h4 class="text-center mb-1" >Everything Includeds</h4>
+                  <h4 class="text-center mb-1" >Tailored For Your Industry</h4>
                   <div>
                       <p class="text-center mb-2 gray">
-                        Modules to run your every task and business operations
+                        Used by more than 5000 users across the world
                       </p>
                   </div>
               </header>
@@ -299,17 +331,17 @@
                 <img class="manif-png" src="./thrive-assets/manufacturing.png " alt="" srcset="">
               </div>
               <div class="manif-content pt-5">
-                <h3 class="pt-4 pb-4">Manifaturing</h3>
+                <h3 class="pt-5 pb-5">Manifaturing</h3>
                 <div class="row">
-                  <div class="col">
-                    <p class="mb-5">From the shop floor to the top floor—Thrivecloud manufacturing 
+                  <div class="col pb-5">
+                    <p class="mb-4">From the shop floor to the top floor—Thrivecloud manufacturing 
                       software keeps the modern manufacturer in sync. Integrate
                        production planning and shop floor with customer management, 
                        sales orders, inventory, purchasing, accounting, and financial 
                        reporting to provide real-time coordination across all verticals 
                        of your business.
                     </p>
-                    <button class="btn btn-outline-light">read more</button>
+                    <button class="pt-2 pb-2 pl-4 pr-4 small-font-size btn btn-outline-light">read more</button>
                   </div>
                   <div class="col text-right">
                     <h4 class="">Manifacturing</h4>
@@ -337,9 +369,9 @@
             <article class="loved">
               <div class=" mt-5 pl-3 nutri-left ">
                 <div class="shadow bg-white pt-5 pl-4 pb-4 rounded">
-                  <h3>Nutrichem Nigeria Ltd.</h3>
-                  <p class="w-50 gray">We’ve had exponential growth without having to increase headcount, and we’ve been able
-                    to handle that with a system like Thrivecloud.</p>
+                  <h3 class="pb-3">Nutrichem Nigeria Ltd.</h3>
+                  <p class="w-75 gray pb-3 ">"We’ve had exponential growth without having to increase headcount, and we’ve been able
+                    to handle that with a system like Thrivecloud."</p>
                   <div>
                     <h3>Edeki Oghenetega</h3>
                     <p class="gray">VP, Operations</p>
@@ -348,7 +380,7 @@
                 <div class="w-75 ml-5 mt-3">
                   <div class="row">
                     <div class="col ml-3 p-0 d-flex justify-content-center">
-                      <div class="arrow-wraper  minos d-flex justify-content-center align-items-center">
+                      <div class="arrow-wraper  d-flex justify-content-center align-items-center">
                         <img class="arrow" src="./svg/chevron-left.svg" alt="" srcset="">
                       </div>   
                     </div>
@@ -377,16 +409,16 @@
         </section>
         <section class="container-fluid mt-5 bg-primary text-white bleed">
           <div class="row">
-            <div class="col-6 pl-5">
-              <div class="learn-wraper pl-5">
-                <img class="learn-png" src="./thrive-assets/christina-wocintechchat-com-1.png"  alt="" srcset="">
+            <div class="col-6 pl-5 pt-3">
+              <div class="learn-wraper ">
+                <!-- <img class="learn-png" src="./svg/christina-wocintechchat-com-1.svg"  alt="" srcset=""> -->
               </div>
             </div>
             <div class="col-6 d-flex align-items-center">
               <div>
-                <h1>Learn How thrive Cloud 
-                Can Transform Your Business</h1>
-                <button class="btn btn-outline-light">schedule free consultation</button>
+                <h2>Learn How thrive Cloud </h2>
+                <h2 class="pb-3">Can Transform Your Business</h2>
+                <button class="text-capitalize pt-2 pb-2 pl-4 pr-4 small-font-size btn btn-outline-light">schedule free consultation</button>
               </div>
             </div>             
           </div>
@@ -525,7 +557,7 @@
                   <img class=" socia-icon" src="./thrive-assets/facebook-1.png" alt="" srcset="">
                 </li>
                 <li class="list-group-item border-0 transparent pr-0 pl-2 pt-0 pb-0">
-                  <img class="socia-icon" src="../thrive-assets/youtube-1.png" alt="" srcset="">
+                  <img class="socia-icon" src="./thrive-assets/youtube-1.png" alt="" srcset="">
                 </li>
               </ul>
             </div>

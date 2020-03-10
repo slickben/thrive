@@ -9,7 +9,7 @@
 }
 
 .nutri-right {
-    background-color: rgba(14, 14, 14, 0.404);
+    background-color: #C7C4C4;
     /* height: 400px; */
 }
 
@@ -17,6 +17,10 @@
     z-index: 2;
     margin-right: -70px;
 
+}
+
+.nutri-left div p {
+    padding-right: 7rem;
 }
 
 .dot {
@@ -32,12 +36,12 @@
 }
 
 .arrow {
-    width: 40%; 
-     height: 70%;
+    width: 60%; 
+     height: 60%;
 }
 
 .arrow-wraper {
-    background-color: #7878782d;
+    background-color: rgba(199, 196, 196, 0.178);
     padding: 10px;
     border-radius: 100px;
     width: 45%;

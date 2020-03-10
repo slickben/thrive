@@ -1,5 +1,9 @@
-* {
-    font-family: "open sans" sans-serif;
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+p {
+    font-weight: 300 !important;
 }
 
 
@@ -18,6 +22,10 @@
     color: white !important;
 }
 
+.small-font-size{
+    font-size: 11px !important;
+}
+
 .resize-btn {
     font-size: 13px !important;
 }
@@ -25,6 +33,18 @@
 .header-content{
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.876), rgba(0, 0, 0, 0.876)), url('../thrive-assets/photo-3.png');
     height: 80vh;
+}
+
+.header-content-acc {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.609)), url('../thrive-assets/products-banner.png');
+    height: 80vh;
+}
+
+.header-content-tr {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.801)), url('../svg/how-to-determine-your-salary-business-owner-1.svg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .logo {
@@ -43,25 +63,121 @@
 
 .bleed{
     margin-bottom: -30px;
+    background:linear-gradient(0deg, rgba(47, 120, 255, 0.664), rgba(61, 128, 253, 0.705)), url('../svg/christina-wocintechchat-com-2.svg');
+    background-size: cover;
+    background-position: center;
 }
 
 .news {
     background-image: url('../thrive-assets/section-background-benefits.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .top {
     height: 250px;
 }
 
-.dropdown-menu-center {
-    right: auto;
-    left: auto;
-    -webkit-transform: translate(-50%, 0);
-    -o-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-}
+
 .nav-link:hover {
-    border-bottom: 2px solid #6E9AFF;
+    border-bottom: 3px solid #6E9AFF;
 }
 
+  
 
+.frame {
+    height: 230px;
+    width: 100%;
+    background-color: white;
+}
+
+.hero h3{
+    color: #6E9AFF;
+}
+
+.gray-bg {
+    background-color: #F6F6F6;
+}
+
+.gray {
+    color: #787878 !important;
+}
+.explore {
+    margin-bottom: -30px;
+    background:linear-gradient(0deg, rgb(0, 0, 0, 0.883), rgba(0, 0, 0, 0.883)), url('../svg/christina-wocintechchat-com-2.svg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.resize-icon {
+    width: 35%;
+}
+
+.resize-h5 {
+    font-size: 14px;
+}
+
+.select-icon {
+    width: 30px;
+}
+
+.icon {
+    width: 40%;
+}
+
+.div-bg {
+    background-color: #6E9AFF;
+}
+
+.resize-p {
+    font-size: 12px;
+}
+
+.explore div div {
+    padding-top: 130px;
+}
+
+.acc img {
+    width: 100%;
+}
+
+.light-gray {
+    background-color: rgba(131, 130, 130, 0.102);
+}
+
+.white-hori-line {
+    border: 1px solid white !important;
+}
+
+.black-hori-line {
+    border: 1px solid black !important;
+}
+
+.dropdown-item {
+    font-size: 10px !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.simelarge-line-height {
+    line-height: 2rem;
+}
+
+.dropdown>.dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    top: 100%;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
