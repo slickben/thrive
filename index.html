@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./styles/loved-by-user.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/learn.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300:400:600" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -22,15 +22,17 @@
     <div class="wraper">
         <header class="container-fluid header-content">
             <div class="container pl-0 pr-0">
-                <nav class="navbar navbar-expand-lg navbar-light ">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                     <a class="navbar-brand pb-3" href="index.html">
                         <img class="logo" src="./thrive-assets/thrive-logo-1.png" alt="" srcset="">
                     </a>
-                  
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <div class="navbar-nav mr-auto text-capitalize ">
                         <div class="dropdown nav-item">
-                          <a type="button" class="pb-4 nav-link text-light" href="./index/product-preview.html">
+                          <a type="button" class=" nav-link text-light" href="./index/product-preview.html">
                             Products
                           </a>
                           <div class="dropdown-menu">
@@ -55,7 +57,7 @@
                           </div>
                         </div>
                         <div class="nav-item dropdown">
-                          <a class="nav-link text-light pb-4"  href="./index/solution.html">solutions</a>
+                          <a class="nav-link text-light"  href="./index/solution.html">solutions</a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Small Business</a>
                             <a class="dropdown-item" href="#">Mid-size Business</a>
@@ -66,7 +68,7 @@
                           </div>
                         </div>
                         <div class="nav-item dropdown">
-                          <a class="nav-link text-light text-light pb-4"  href="./index/Industries.html" >
+                          <a class="nav-link text-light text-light"  href="./index/Industries.html" >
                             industries 
                           </a>
                           <div class="dropdown-menu">
@@ -79,20 +81,20 @@
                           </div>
                         </div>
                         <div class="nav-item">
-                          <a class="nav-link pb-4 text-light" href="#" tabindex="-1">
+                          <a class="nav-link text-light" href="#" tabindex="-1">
                             pricing
                           </a>
                         </div>
                         <div class="nav-item">
-                          <a class="nav-link pb-4 text-light"  href="./index/professional-service.html" tabindex="-1">
+                          <a class="nav-link text-light"  href="./index/professional-service.html" tabindex="-1">
                             services
                           </a>
                         </div>
                         <div class="nav-item">
-                          <a class="nav-link text-light pb-4"  href="./index/News-Resources.html" tabindex="-1">resources</a>
+                          <a class="nav-link text-light"  href="./index/News-Resources.html" tabindex="-1">resources</a>
                         </div>
                         <div class="nav-item dropdown">
-                          <a class="nav-link pb-4 text-light" href="#">about</a>
+                          <a class="nav-link text-light" href="#">about</a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="./index/thrive.html">Why Thrivecloud</a>
                             <a class="dropdown-item" href="./index/platform.html">Opensource ERP</a>
@@ -111,8 +113,8 @@
                 <article class="container pt-5 pb-5">
                     <div class="d-flex justify-content-center pt-5 pb-5 text-light">
                         <div class="w-75 text-center" >
-                            <h1 class="">Next Generation </h1>
-                            <h1>Business Management Platform</h1>
+                            <h1 style="font-weight: 600;">Next Generation </h1>
+                            <h1 style="font-weight: 600;">Business Management Platform</h1>
                             <p class="pb-3">solving common business challenges</p>
                             <div class="link-btn">
                                 <button  class="text-capitalize small-font-size pt-2 pb-2 pl-4 pr-4 btn btn-outline-light my-2 my-sm-0 mr-2">Products tour</button>
@@ -124,8 +126,8 @@
                 </article>
             </div>
         </header>
-        <section class="overlap container shadow mb-4">
-            <div class="container-fluid">
+        <section class=" container-fluid ">
+            <div class="overlap shadow mb-4 container-lg">
               <div class="d-flex justify-content-center">
                 <header class="head mt-5">
                     <h4 class="text-center mb-4" >Unified Management Platform For Small andMid-size Business</h4>
@@ -140,8 +142,8 @@
                 </header>
               </div>
               <article class="d-flex justify-content-center mb-5">
-                  <div class="card-group mb-4">
-                    <div class="card text-white about-card mb-3  mr-4 ml-4 pr-2 pl-2" style="max-width: 18rem;">
+                  <div class="card-deck mb-4">
+                    <div class="card text-white about-card mb-3  mr-4 ml-4 pr-2 pl-2">
                       <div class="card-header mt-4">
                         <img class="card-icon" src="./thrive-assets/check-square.png" alt="" srcset="">
                       </div>
@@ -151,7 +153,7 @@
                           5000 staff manufacturing concern. </p>
                       </div>
                     </div>
-                    <div class="card text-white about-card mb-3  mr-4 ml-4 pr-2 pl-2" style="max-width: 18rem;">
+                    <div class="card text-white about-card mb-3  mr-4 ml-4 pr-2 pl-2">
                       <div class="card-header mt-4">
                         <img class="card-icon"  src="./thrive-assets/upload-cloud.png" alt="" srcset="">
                       </div> 
@@ -163,7 +165,9 @@
                         </p>
                       </div>
                     </div>
-                    <div class="card text-white about-card mb-3 mr-4 ml-4 pr-2 pl-2" style="max-width: 18rem;">
+                    <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+                    <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+                    <div class="card text-white about-card mb-3 mr-4 ml-4 pr-2 pl-2" >
                       <div class="card-header mt-4">
                         <img class="card-icon"  src="./thrive-assets/thumbs-up.png" alt="" srcset="">
                       </div>
@@ -178,8 +182,8 @@
               </article>
             </div>
         </section>
-        <section class="container pl-0 pr-0">
-          <div class="container-fluid pl-0 pr-0">
+        <section class="container-fluid pl-0 pr-0">
+          <div class="container-lg">
             <div class="d-flex justify-content-center">
               <header class="head mt-5 mb-5">
                   <h4 class="text-center mb-1" >Everything Includeds</h4>
@@ -191,118 +195,132 @@
               </header>
             </div>
             <article>
-                  <div class="d-flex justify-content-between mb-4 features">
-                    <div class="features-card card text-black shadow mb-3  mr-4 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/001-accounting.svg" alt="" srcset="">
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Accounting</h5>
-                        <p class="card-text">Get a real time view of your cash flow. Full fledged accounting module 
-                          covering every aspect of book keeping.
-                        </p>
-                      </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
-                      </div>
-                    </div>
-                    <div class="features-card card text-black shadow mb-3  mr-4 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/asset-25.svg" alt="" srcset="">
-                      </div> 
-                      <div class="card-body">
-                        <h5 class="card-title">Sales & Purchase</h5>
-                        <p class="card-text">Increase productivity and lower costs by managing your sales and purchase cycles, 
-                          from purchase to sales orders
-                        </p>
-                      </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 col-xl-3 pl-0">
+                      <div class="features-card card text-black shadow mb-5  mr-2 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/001-accounting.svg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">Accounting</h6>
+                          <p class="card-text">Get a real time view of your cash flow. Full fledged accounting module 
+                            covering every aspect of book keeping.
+                          </p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
                       </div>
                     </div>
-                    <div class="features-card card text-black shadow mb-3 mr-4 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/asset-33.svg" alt="" srcset="">
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">HR & Payroll</h5>
-                        <p class="card-text">Manage full employee life cycle right from onboarding, payroll, attendance, 
-                          expense claims, assets to separation.
-                        </p>
-                      </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
-                      </div>
-                    </div>
-                    <div class="features-card card text-black shadow mb-3 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/asset-21.svg" alt="" srcset="">
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Manufacturing</h5>
-                        <p class="card-text">Effectively maintain and manage multilevel bill of materials, production planning, 
-                          job cards & inventory..
-                        </p>
-                      </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="features-card card text-black shadow mb-5  mr-2 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/asset-25.svg" alt="" srcset="">
+                        </div> 
+                        <div class="card-body">
+                          <h6 class="card-title">Sales & Purchase</h6>
+                          <p class="card-text">Increase productivity and lower costs by managing your sales and purchase cycles, 
+                            from purchase to sales orders
+                          </p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="d-flex justify-content-between mb-4">
-                    <div class="features-card card text-black shadow mb-3  mr-4 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/asset-15.svg" alt="" srcset="">
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">CRM</h5>
-                        <p class="card-text">Win and retain more customers by optimizing sales process. Track leads, 
-                          opportunities and send the quotes on the go.
-                        </p>
-                      </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
-                      </div>
-                    </div>
-                    <div class="features-card card text-black shadow mb-3  mr-4 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/asset-27.svg" alt="" srcset="">
-                      </div> 
-                      <div class="card-body">
-                        <h5 class="card-title">Projects Management</h5>
-                        <p class="card-text">Increase productivity and lower costs by managing your sales and purchase cycles, 
-                          from purchase to sales orders
-                        </p>
-                      </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="features-card card text-black shadow mb-5 mr-2 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/asset-33.svg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">HR & Payroll</h6>
+                          <p class="card-text">Manage full employee life cycle right from onboarding, payroll, attendance, 
+                            expense claims, assets to separation.
+                          </p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
                       </div>
                     </div>
-                    <div class="features-card card text-black shadow mb-3 mr-4 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/asset-19.svg" alt="" srcset="">
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Asset Management</h5>
-                        <p class="card-text">Maintain and Manage details of assets, their movement, 
-                          value adjustment and depreciation..
-                        </p>
-                      </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
+                    <div class="col-md-6 col-lg-4 col-xl-3 pr-0">
+                      <div class="features-card card text-black shadow mb-5 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/asset-21.svg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">Manufacturing</h6>
+                          <p class="card-text">Effectively maintain and manage multilevel bill of materials, production planning, 
+                            job cards & inventory..
+                          </p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
                       </div>
                     </div>
-                    <div class="features-card card text-black shadow mb-3 pr-2 pl-2" style="max-width: 17rem;">
-                      <div class="card-header">
-                        <img src="./svg/asset-23.svg" alt="" srcset="">
+                    <div class="col-md-6 col-lg-4 col-xl-3 pl-0">
+                      <div class="features-card card text-black shadow mb-5  mr-2 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/asset-15.svg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">CRM</h6>
+                          <p class="card-text">Win and retain more customers by optimizing sales process. Track leads, 
+                            opportunities and send the quotes on the go.
+                          </p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
                       </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Helpdesk</h5>
-                        <p class="card-text">Deliver a better service experience with an intuitive issue tracker 
-                          and integrated knowledge base.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="features-card card text-black shadow mb-5  mr-2 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/asset-27.svg" alt="" srcset="">
+                        </div> 
+                        <div class="card-body">
+                          <h6 class="card-title">Projects Management</h6>
+                          <p class="card-text">Increase productivity and lower costs by managing your sales and purchase cycles, 
+                            from purchase to sales orders
+                          </p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
                       </div>
-                      <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
-                        <p class="card-text">learn more</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="features-card card text-black shadow mb-5 mr-2 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/asset-19.svg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">Asset Management</h6>
+                          <p class="card-text">Maintain and Manage details of assets, their movement, 
+                            value adjustment and depreciation..
+                          </p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 pr-0">
+                      <div class="features-card card text-black shadow mb-5 pr-2 pl-2" style="height: 225px;">
+                        <div class="card-header">
+                          <img src="./svg/asset-23.svg" alt="" srcset="">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Helpdesk</h5>
+                          <p class="card-text">Deliver a better service experience with an intuitive issue tracker 
+                            and integrated knowledge base.</p>
+                        </div>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center ovl">
+                          <p class="card-text">learn more</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -326,13 +344,15 @@
                   </div>
               </header>
             </div>
-            <article class="manif">
-              <div class="manif-img mt-5 mb-5" >
-                <img class="manif-png" src="./thrive-assets/manufacturing.png " alt="" srcset="">
+            <article class="row">
+              <div class="col-4 manif-img mt-5 mb-5" >
+                <div class="lap">
+                  <img class="manif-png" src="./thrive-assets/manufacturing.png " alt="" srcset="">
+                </div>
               </div>
-              <div class="manif-content pt-5">
-                <h3 class="pt-5 pb-5">Manifaturing</h3>
-                <div class="row">
+              <div class="col-8 manif-content pt-5">
+                <h3 class="pt-5 pb-5 ">Manifaturing</h3>
+                <div class="row pl-5">
                   <div class="col pb-5">
                     <p class="mb-4">From the shop floor to the top floor—Thrivecloud manufacturing 
                       software keeps the modern manufacturer in sync. Integrate
@@ -411,7 +431,7 @@
           <div class="row">
             <div class="col-6 pl-5 pt-3">
               <div class="learn-wraper ">
-                <!-- <img class="learn-png" src="./svg/christina-wocintechchat-com-1.svg"  alt="" srcset=""> -->
+                <img class="learn-png" src="./svg/christina-wocintechchat-com-1.svg"  alt="" srcset="">
               </div>
             </div>
             <div class="col-6 d-flex align-items-center">

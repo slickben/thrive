@@ -7,6 +7,12 @@ p {
 }
 
 
+
+@media (max-width: 1200px) {
+.container {
+    max-width:  1620px !important;;
+ }
+}
 .wraper {
     display: grid;
 }

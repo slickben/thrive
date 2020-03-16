@@ -1,11 +1,11 @@
-/* .learn-png {
-    width: 100%;
-    height: 100%;
-    border-radius: 400px / 730px;
-    transform: rotate(2deg);
-    /* border: solid 6px white; */
-    /* border-radius: 6001px; */
-
+.learn-png {
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    /* object-fit: cover; */
+    object-position: right;
+    
+}
 
 .learn-wraper {
     /* border: solid 15px rgb(255, 255, 255); */
@@ -16,10 +16,12 @@
     border-radius: 300px / 225px;
     width: 600px;
     height: 450px;
+    position: relative;
+    overflow: hidden;
    
 
-    background-image: url('../svg/christina-wocintechchat-com-6.svg');
+    /* background-image: url('../svg/christina-wocintechchat-com-6.svg');
     background-size: cover;
-    background-position: center;
-    transform: rotate(-8deg);
+    background-position: center; */
+    transform: rotate(-10deg);
 }
