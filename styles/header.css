@@ -187,3 +187,8 @@ p {
     /*Without this, clicking will make it sticky*/
       pointer-events: none;
   }
+
+  .step-btn button {
+      font-size: 8px !important;
+      padding: 10px 15px !important;
+  }
