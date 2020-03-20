@@ -2,6 +2,7 @@
     width: 750px;
     height: 500px;
     position: absolute;
+    transform: scale(1.1);
     /* object-fit: cover; */
     object-position: right;
     
@@ -23,5 +24,5 @@
     /* background-image: url('../svg/christina-wocintechchat-com-6.svg');
     background-size: cover;
     background-position: center; */
-    transform: rotate(-10deg);
+    transform: rotate(-13deg);
 }

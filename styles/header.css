@@ -2,8 +2,13 @@ body {
     font-family: "Open Sans", sans-serif !important;
 }
 
-p {
-    font-weight: 300 !important;
+
+h6 {
+    font-weight: 600 !important;
+}
+
+.sime-bold {
+    font-weight: 600 !important;
 }
 
 
@@ -59,7 +64,7 @@ p {
 }
 
 .navbar-nav, .nav-link {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .link-btn {
@@ -97,7 +102,7 @@ p {
     background-color: white;
 }
 
-.hero h3{
+.hero h4{
     color: #6E9AFF;
 }
 
